@@ -16,16 +16,24 @@
       integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+  />
     <link rel="stylesheet" href="css/style.css" />
     <title>Elie Profile</title>
   </head>
 
-  <body>
+  <body id="home" data-spy="scroll" data-target="#main-nav">
     <!-- NAV-BAR / HEADER -->
     <section id="home-heading">
         <div class="dark-overlay">
             <!-- NAV-BAR -->
-          <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+          <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark" id="main-nav">
               <div class="container">
                 <a href="index.html" class="navbar-brand">
                   <i class="fab fa-cuttlefish fa-2x mr-1"></i>
@@ -39,7 +47,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                   <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                       <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
@@ -55,7 +63,7 @@
                       <a href="#blogs" class="nav-link">Blogs</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#cert" class="nav-link">Certificates</a>
+                      <a href="#achiev" class="nav-link">Achievements</a>
                     </li>
                   </ul>
                 </div>
@@ -131,7 +139,7 @@
       </section>
     
     <!-- SERVICES -->
-    <section id="services" class="py-5 bg-success">
+    <section id="services" class="py-5 bg-dark">
       <div class="container">
         <hr class="w-50 bg-light">
         <h1 class="text-center text-white display-4"><strong>SERVICES</strong></h1>
@@ -330,6 +338,165 @@
       </div>
     </section>
 
+    <!-- BLOG -->
+    <section id="blogs" class="py-5 bg-dark text-white">
+      <div class="container">
+        <hr class="w-75 bg-light">
+        <h1 class="text-center display-4"><strong>MY THOUGHTS</strong></h1>
+        <hr class="w-75 bg-light">
+        <p class="lead text-center mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, autem.</p>
+
+        <!-- ACCORDION -->
+        <div class="row">
+          <div class="col-md-6">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <a href="#collapseOne" data-toggle="collapse" data-parent="accordion"> Blog One</a>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse">
+                  <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam doloremque asperiores nam accusamus pariatur, commodi consectetur nesciunt sunt eaque debitis aliquam quasi distinctio? Magnam facilis iste voluptate nihil ut maiores!</div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <a href="#collapseTwo" data-toggle="collapse" data-parent="accordion">Blog Two</a>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa autem voluptates pariatur alias dolores ab dolor iste aspernatur provident, placeat magni totam, asperiores assumenda praesentium eius debitis nisi quas?
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <a href="#collapseThree" data-toggle="collapse" data-parent="accordion">Blog Three</a>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse">
+                  <div class="card-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatum eum aliquid cupiditate repudiandae deleniti eaque sapiente dolores blanditiis? Deserunt doloribus maxime repudiandae voluptatem vero veritatis vel magni sequi beatae.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <a href="#collapseFour" data-toggle="collapse" data-parent="accordion"> Blog Four</a>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse">
+                  <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam doloremque asperiores nam accusamus pariatur, commodi consectetur nesciunt sunt eaque debitis aliquam quasi distinctio? Magnam facilis iste voluptate nihil ut maiores!</div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <a href="#collapseFive" data-toggle="collapse" data-parent="accordion">Blog Five</a>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa autem voluptates pariatur alias dolores ab dolor iste aspernatur provident, placeat magni totam, asperiores assumenda praesentium eius debitis nisi quas?
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <a href="#collapseSix" data-toggle="collapse" data-parent="accordion">Blog Six</a>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse">
+                  <div class="card-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatum eum aliquid cupiditate repudiandae deleniti eaque sapiente dolores blanditiis? Deserunt doloribus maxime repudiandae voluptatem vero veritatis vel magni sequi beatae.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="col text-center">
+            <a href="#" class="btn btn-outline-secondary w-50 btn-lg mt-4">Read More</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ACHIVEMENTS -->
+    <section id="achiev" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Achievements</h2>
+        <hr class="w-50">
+        <div class="row text-center">
+          <div class="col">
+            <div class="slider">
+              <div>
+                <blockquote class="blockquote">
+                  <p class="mb-0 pt-3">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, optio.
+                  </p>
+                  <footer class="blockquote-footer">
+                    John Doe From
+                    <cite title="Company 1">Company 1</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div>
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, veritatis!  
+                  </p>
+                  <footer class="blockquote-footer">
+                    Sam Smith From 
+                    <cite title="Company 2">Company 2</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div>
+                <blockquote class="blockquote">
+                  <p class="mb-0">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, ea.
+                  </p>
+                  <footer class="blockquote-footer">
+                    Meghan Williams From
+                    <cite title="Company 3">Company 3</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="main-footer" class="p-4 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="#" class="btn btn-outline-secondary">
+                <i class="fas fa-cloud"></i> Download Resume
+            </a>
+            <p class="pt-2">Copyright &copy; <span id="year"></span> Elie Profile</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
@@ -349,6 +516,8 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
 
     <script>
       // Get the current year for the copyright
@@ -364,6 +533,27 @@
       $('.port-item').click(function(){
         $('.collapse').collapse('hide')
       })
+
+      // Init Slick
+      $('.slider').slick({
+        dots: true,
+        infinite: true,
+        slideToShow: 1
+      })
+
+      // Smooth Scrolling 
+      $('#main-nav a').on('click', function(event){
+        if(this.hash !== ""){
+          event.preventDefault();
+          const hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          },800,function(){
+            window.location.hash = hash;
+          })
+        }
+      })
+
     </script>
   </body>
 </html>
