@@ -25,7 +25,7 @@
     <section id="home-heading">
         <div class="dark-overlay">
             <!-- NAV-BAR -->
-          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
               <div class="container">
                 <a href="index.html" class="navbar-brand">
                   <i class="fab fa-cuttlefish fa-2x mr-1"></i>
@@ -110,6 +110,95 @@
       </div>
     </section>
 
+    <!-- INTRODUCTION -->
+      <section id="intro" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 align-self-center">
+              <img src="img/Elie-profile-picture.jpg" alt="" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-9 text-dark">
+              <hr class="w-50">
+              <h3 class="text-center">HELLO</h3>
+              <hr class="w-50">
+              <h3>Elie Bizimana</h3>
+              <h5>Hello I'm Elie Bizimana,<strong> Graphic & Web Designer</strong></h5>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cumque itaque blanditiis voluptatibus in possimus qui asperiores obcaecati doloribus hic, autem suscipit esse odio. Atque magnam necessitatibus suscipit dolore ab.</p>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi molestias quibusdam tenetur rerum quis aspernatur esse dolore omnis autem tempore.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    <!-- SERVICES -->
+    <section id="services" class="py-5 bg-success">
+      <div class="container">
+        <hr class="w-50 bg-light">
+        <h3 class="text-center text-white"><strong>SERVICES</strong></h3>
+        <hr class="w-50 bg-light mb-5">
+        <div class="row">
+          <div class="col-md-3 mb-4">
+            <div class="card card-body align-items-center text-center">
+              <i class="fas fa-laptop fa-3x d-block"></i>
+              <h5 class="display-5 mt-2"><strong>WEB DEVELOPMENT</strong></h5>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, doloribus eaque. Expedita tenetur in, reprehenderit labore recusandae ipsum voluptas laboriosam!</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card card-body align-items-center text-center">
+              <i class="fas fa-road fa-3x d-block"></i>
+              <h5 class="display-5 mt-3"><strong>ONLINE MARKETING</strong></h5>
+              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque ad nihil ipsa tempore minima dolore reiciendis sit odio enim quos.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card card-body align-items-center text-center">
+              <i class="fas fa-desktop fa-3x d-block"></i>
+              <h5 class="display-5 mt-3"><strong>WEB MASTER</strong></h5>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eveniet dignissimos alias illum rem maiores. Quasi culpa ipsum illum eos.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card card-body align-items center text-center">
+              <i class="fas fa-trophy fa-3x d-block"></i>
+              <h5 class="display-5 mt-3"><strong>LOGO DESIGN</strong></h5>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita velit inventore illo quis voluptate animi repellat cupiditate at sunt excepturi!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-4">
+            <div class="card card-body align-items center text-center">
+              <i class="far fa-file-archive fa-3x d-block"></i>
+              <h5 class="mt-3"><strong>SUPPORT SERVICE</strong></h5>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus blanditiis, provident est aliquam eaque impedit voluptatibus ducimus quo exercitationem vero.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card card-body align-items center text-center">
+              <i class="fab fa-dropbox fa-3x d-block"></i>
+              <h5 class="mt-3"><strong>HOSTING & SERVER</strong></h5>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus blanditiis, provident est aliquam eaque impedit voluptatibus ducimus quo exercitationem vero.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card card-body align-items center text-center">
+              <i class="fab fa-empire fa-3x d-block"></i>
+              <h5 class="mt-3"><strong>COPYWRITE</strong></h5>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus blanditiis, provident est aliquam eaque impedit voluptatibus ducimus quo exercitationem vero.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card card-body align-items center text-center">
+              <i class="fas fa-globe fa-3x d-block"></i>
+              <h5 class="mt-3"><strong>OPENSOURCE WEB</strong></h5>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus blanditiis, provident est aliquam eaque impedit voluptatibus ducimus quo exercitationem vero.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
@@ -133,6 +222,12 @@
     <script>
       // Get the current year for the copyright
       $("#year").text(new Date().getFullYear());
+
+      // Configure Slider
+      $('.carousel').carousel({
+        interval: 6000,
+        pause: 'hover'
+      })
     </script>
   </body>
 </html>
