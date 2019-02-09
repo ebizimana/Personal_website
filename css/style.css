@@ -41,6 +41,10 @@
   border: 1px solid #fff;
 }
 
+#portfolio .port-item {
+  width: 120px;
+}
+
 @media (max-width: 768px) {
   .carousel-item {
     height: 500px;
