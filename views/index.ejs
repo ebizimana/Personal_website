@@ -1,122 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-      crossorigin="anonymous"
-    />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
-  />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Elie Profile</title>
-  </head>
+<% include partials/header %>
 
-  <body id="home" data-spy="scroll" data-target="#main-nav">
-    <!-- NAV-BAR / HEADER -->
-    <section id="home-heading">
-        <div class="dark-overlay">
-            <!-- NAV-BAR -->
-          <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark" id="main-nav">
-              <div class="container">
-                <a href="index.html" class="navbar-brand">
-                  <i class="fab fa-cuttlefish fa-2x mr-1"></i>
-                  <h3 class="display-4 d-inline">Elie PROFILE</h1></a
-                >
-                <button
-                  class="navbar-toggler"
-                  data-toggle="collapse"
-                  data-target="#navbarCollapse">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#intro" class="nav-link">Introduction</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#services" class="nav-link">Services</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#portfolio" class="nav-link">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#blogs" class="nav-link">Blogs</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#achiev" class="nav-link">Achievements</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-          </nav>
-
-              <!-- HEADER -->
-          <header id="showcase" class="p-5">
-            <div class="carousel slide" id="myCarausel" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li class="active" data-target="#myCarausel" data-slide-to="0"></li>
-                <li data-target="#myCarausel" data-slide-to="1"></li>
-                <li data-target="#myCarausel" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="container">
-                    <div class="carousel-caption d-none d-sm-block mb-5">
-                      <h1 class="display3">WELCOME TO MY PAGE</h1>
-                      <hr class="bg-success">
-                      <h1><strong>I'M PRO WEB DEVELOPER</strong></h1>
-                      <hr class="bg-success">
-                      <h5><strong>WEB DEVELOPER | WEB DESIGN</strong></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="container">
-                    <div class="carousel-caption d-none d-sm-block mb-5">
-                        <h1 class="display3">PROFESSION WEB DESIGN</h1>
-                        <hr class="bg-success">
-                        <h1><strong>WITH HI-QUALITY DESIGN</strong></h1>
-                        <hr class="bg-success">
-                        <h5><strong>WEB DESIGN TUNE | CREATIVE DESIGN</strong></h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="container">
-                    <div class="carousel-caption d-none d-sm-block mb-5">
-                        <h1 class="display3">WEB DEVELOPMENT</h1>
-                        <hr class="bg-success">
-                        <h1><strong>RESPONSIVE WEB LAYOUT</strong></h1>
-                        <hr class="bg-success">
-                        <h5><strong>MOBILE SUPPORT | BOOTSTRAP BUIT IN</strong></h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </header>
-      </div>
-    </section>
 
     <!-- INTRODUCTION -->
       <section id="intro" class="py-5">
@@ -124,6 +7,18 @@
           <div class="row">
             <div class="col-md-3 align-self-center">
               <img src="img/Elie-profile-picture.jpg" alt="" class="img-fluid rounded-circle">
+              <div class="d-flex justify-content-center">
+                <div>
+                  <a href="https://github.com/ebizimana" data-toggle="popover" data-placement="bottom" data-content="github.com/ebizimana" class="text-dark">
+                    <i class="fab fa-github fa-3x mr-3 mt-3"></i>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" data-toggle="popover" data-placement="bottom" data-content="(276) 312-0375" class="text-dark">
+                      <i class="fas fa-mobile fa-3x mr-3 mt-3"></i>
+                  </a>
+                </div>
+              </div>
             </div>
             <div class="col-md-9 text-dark">
               <hr class="w-50">
@@ -131,8 +26,8 @@
               <hr class="w-50">
               <h3>Elie Bizimana</h3>
               <h5>Hello I'm Elie Bizimana,<strong> Graphic & Web Designer</strong></h5>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cumque itaque blanditiis voluptatibus in possimus qui asperiores obcaecati doloribus hic, autem suscipit esse odio. Atque magnam necessitatibus suscipit dolore ab.</p>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi molestias quibusdam tenetur rerum quis aspernatur esse dolore omnis autem tempore.</p>
+              <p class="lead">I have designed multiple web and mobile applications both front and back end. I am a <a href="http://liberty.edu">Liberty University</a>  graduate in Computer Science . Born and raised in Rwanda and fluate in three languages. </p>
+              <p class="lead">My skills and limitations are represented in the projects I have finished. I have linked my <a href="https://github.com/ebizimana">Github account</a> to present the projects I have worked on and show how many language I can program in.</p>
             </div>
           </div>
         </div>
@@ -217,37 +112,40 @@
         <!-- ACTIONS -->
         <div class="d-flex justify-content-center">
           <button class="btn btn-dark port-item mr-3" data-toggle="collapse" data-target="#all">All</button>
-          <button class="btn btn-dark port-item mr-3" data-toggle="collapse" data-target="#joomla">JOOMLA</button> 
-          <button class="btn btn-dark port-item mr-3" data-toggle="collapse" data-target="#htmlCss">HTML/CSS</button>
+          <button class="btn btn-dark port-item mr-3" data-toggle="collapse" data-target="#nodeJs">NodeJs</button> 
+          <button class="btn btn-dark port-item mr-3" data-toggle="collapse" data-target="#BS4">BootStrap 4</button>
           <button class="btn btn-dark port-item mr-3" data-toggle="collapse" data-target="#wordpress">WORDPRESS</button>    
         </div>
 
         <div class="collapse mt-5 show" id="all">
           <div class="row mb-4">
             <div class="col-md-4">
-              <a href="https://source.unsplash.com/random/560x560">
-                <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+              <a href="https://rocky-plains-84807.herokuapp.com/" data-toggle="lightbox">
+                <img src="img/Yelp_Camp.PNG" alt=""  class="img-fluid">
               </a>
             </div>
             <div class="col-md-4">
-              <a href="https://source.unsplash.com/random/561x561">
-                <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+              <a href="https://secret-citadel-58523.herokuapp.com/" data-toggle="lightbox">
+                <img src="img/Color_Game.png" alt="" class="img-fluid">
               </a>
             </div>
             <div class="col-md-4">
-              <a href="https://source.unsplash.com/random/563x563">
-                <img src="https://source.unsplash.com/random/563x563" alt="" class="img-fluid">
-              </a>
+                <div class="circle-overlay">
+                  <p class="display-5 align-self-end circle-text">Can You</p>
+                  <a href="https://github.com/ebizimana/circles">
+                    <img src="img/Circles_App.png" alt="" class="img-fluid">
+                  </a>
+                </div>
             </div>
           </div>
           <div class="row mb-4">
             <div class="col-md-4">
-              <a href="https://source.unsplash.com/random/564x564">
-                <img src="https://source.unsplash.com/random/564x564" alt="" class="img-fluid">
+              <a href="https://github.com/ebizimana/glozzom">
+                <img src="img/Glozoom_Theme.png" alt="" class="img-fluid">
               </a>
             </div>
             <div class="col-md-4">
-              <a href="https://source.unsplash.com/random/565x565">
+              <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox">
                 <img src="https://source.unsplash.com/random/565x565" alt="" class="img-fluid">
               </a>
             </div>
@@ -276,27 +174,27 @@
           </div>
         </div>
 
-        <div class="collapse mt-5" id="joomla">
+        <div class="collapse mt-5" id="nodeJs">
           <div class="row mb-4">
-            <div class="col-md-4">
-                <a href="https://source.unsplash.com/random/560x560">
-                  <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+              <div class="col-md-4">
+                <a href="https://rocky-plains-84807.herokuapp.com/">
+                  <img src="img/Yelp_Camp.PNG" alt=""  class="img-fluid">
                 </a>
               </div>
               <div class="col-md-4">
-                <a href="https://source.unsplash.com/random/561x561">
-                  <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+                <a href="https://secret-citadel-58523.herokuapp.com/">
+                  <img src="img/Color_Game.png" alt="" class="img-fluid">
                 </a>
               </div>
               <div class="col-md-4">
-                <a href="https://source.unsplash.com/random/563x563">
-                  <img src="https://source.unsplash.com/random/563x563" alt="" class="img-fluid">
+                <a href="https://github.com/ebizimana/circles">
+                  <img src="img/Circles_App.png" alt="" class="img-fluid">
                 </a>
               </div>
           </div>
         </div>
         
-        <div class="collapse mt-5" id="htmlCss">
+        <div class="collapse mt-5" id="BS4">
           <div class="row mb-4">
               <div class="col-md-4">
                   <a href="https://source.unsplash.com/random/564x564">
@@ -483,77 +381,5 @@
       </div>
     </section>
 
-    <!-- FOOTER -->
-    <section id="main-footer" class="p-4 text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <a href="#" class="btn btn-outline-secondary">
-                <i class="fas fa-cloud"></i> Download Resume
-            </a>
-            <p class="pt-2">Copyright &copy; <span id="year"></span> Elie Profile</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-
-    <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    >
-    
-    
-    </script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
-
-
-    <script>
-      // Get the current year for the copyright
-      $("#year").text(new Date().getFullYear());
-
-      // Configure Slider
-      $('.carousel').carousel({
-        interval: 6000,
-        pause: 'hover'
-      })
-
-      // Hide the collapse
-      $('.port-item').click(function(){
-        $('.collapse').collapse('hide')
-      })
-
-      // Init Slick
-      $('.slider').slick({
-        dots: true,
-        infinite: true,
-        slideToShow: 1
-      })
-
-      // Smooth Scrolling 
-      $('#main-nav a').on('click', function(event){
-        if(this.hash !== ""){
-          event.preventDefault();
-          const hash = this.hash;
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          },800,function(){
-            window.location.hash = hash;
-          })
-        }
-      })
-
-    </script>
-  </body>
-</html>
+<% include partials/footer %>

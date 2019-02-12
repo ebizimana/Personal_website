@@ -45,6 +45,19 @@
   width: 120px;
 }
 
+#portfolio .circle-text {
+  display: none;
+}
+
+#portfolio .circle-overlay:hover {
+  background-color: black;
+  opacity: 0.75;
+}
+
+#portfolio .circle-overlay:hover .circle-text {
+  display: block;
+}
+
 #blogs .card {
   border: #444;
 }

@@ -1,0 +1,24 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "My personal Website ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebizimana/Personal_website.git"
+  },
+  "author": "Elie Bizimana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebizimana/Personal_website/issues"
+  },
+  "homepage": "https://github.com/ebizimana/Personal_website#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
