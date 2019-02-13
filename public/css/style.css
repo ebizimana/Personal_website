@@ -32,11 +32,11 @@
   height: 100%;
 }
 
-#services .card-body {
+#tank .card-body {
   height: 100%;
 }
-#services .card-body:hover {
-  background: #6c757d;
+#tank .card-body:hover {
+  background: #dc3545;
   color: #fff;
   border: 1px solid #fff;
 }
@@ -45,16 +45,29 @@
   width: 120px;
 }
 
-#portfolio .circle-text {
+#portfolio .box {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+#portfolio .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#portfolio .overlay:hover {
+  background: black;
+  opacity: 0.7;
+}
+
+#portfolio .hide {
   display: none;
 }
 
-#portfolio .circle-overlay:hover {
-  background-color: black;
-  opacity: 0.75;
-}
-
-#portfolio .circle-overlay:hover .circle-text {
+#portfolio .overlay:hover .hide {
   display: block;
 }
 
