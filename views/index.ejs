@@ -597,7 +597,6 @@
 
 <!-- ACHIVEMENTS -->
 <section id="achiev" class="py-5">
-  s
   <div class="container">
     <h2 class="text-center">Achievements</h2>
     <hr class="w-50" />
@@ -688,11 +687,45 @@
 
     <div class="row">
       <div class="col text-right">
-        <a href="#" class="btn btn-outline-dark">Contact For More</a>
+        <button data-toggle="modal" data-target="#contactModal" href="#" class="btn btn-outline-dark">Contact Me For More</button>
       </div>
     </div>
 
   </div>
 </section>
+
+<!-- CONTACT MODAL -->
+<div class="modal fade text-dark" id="contactModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Contact Me</h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control"></textarea>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-primary btn-block">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <% include partials/footer %>
